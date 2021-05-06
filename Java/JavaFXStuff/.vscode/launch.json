@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HiBye",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/moaz1/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
+            "mainClass": "HiBye",
+            "projectName": "JavaFXStuff_fe12de5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeTester",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/moaz1/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
+            "mainClass": "PrimeTester",
+            "projectName": "JavaFXStuff_fe12de5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeTester2",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/moaz1/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
+            "mainClass": "PrimeTester2",
+            "projectName": "JavaFXStuff_fe12de5c"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseButtonPanel",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/moaz1/Downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
+            "mainClass": "UseButtonPanel",
+            "projectName": "JavaFXStuff_fe12de5c"
+        }
+    ]
+}
