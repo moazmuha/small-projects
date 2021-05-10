@@ -1,0 +1,32 @@
+-- 1
+SELECT nameFirst,birthYear FROM people WHERE birthCountry='Panama' AND weight>79;
+
+-- 2
+SELECT playerid INTO hrbatter FROM (SELECT DISTINCT playerid, SUM(HR) h FROM batting GROUP BY playerid) t WHERE t.h>=2;
+
+SELECT DISTINCT nameFirst, nameLast INTO temp4 FROM people INNER JOIN hrbatter ON people.playerID=hrbatter.playerID 
+WHERE birthYear>1985;
+
+-- 3
+SELECT DISTINCT teamID INTO washingtonTeams FROM teams WHERE name= like '%Washington%';
+
+SELECT DISTINCT playerid, AVG(salary) salary INTO washingtonSalaries
+FROM salaries INNER JOIN washingtonTeams ON salaries.teamID=washingtonTeams.teamID GROUP BY playerID;
+
+SELECT nameFirst, nameLast, salary FROM people RIGHT JOIN washingtonSalaries ws ON people.playerID=ws.playerID
+ORDER BY nameLast; 
+
+-- 4
+SELECT playerID, SUM(salary) earnings INTO sals FROM salaries GROUP BY playerID;
+
+SELECT DISTINCT nameFirst, nameLast, earnings FROM people RIGHT JOIN sals ON people.playerID=sals.playerID 
+ORDER BY earnings DESC;
+
+-- 5
+
+SELECT DISTINCT a.playerid INTO players FROM awardsPlayers a, awardsPlayers b 
+WHERE a.playerID=b.playerID AND a.yearid<>b.yearid;
+
+SELECT a.playerID, COUNT(a.playerID) INTO temp69 FROM players p LEFT JOIN awardsPlayers a ON a.playerID=p.playerID
+GROUP BY a.playerID; 
+
