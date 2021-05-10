@@ -4,7 +4,7 @@ package OthelloGame.othello;
  * This controller uses the Model classes to allow the Human player P1 to play
  * the computer P2. The computer, P2 uses a greedy strategy. 
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 public class OthelloControllerHumanVSGreedy extends OthelloController{

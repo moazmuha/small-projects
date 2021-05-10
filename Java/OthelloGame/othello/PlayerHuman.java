@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * A HumanPLayer is Player that makes move in an Othello game depdinding on user input.
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 public class PlayerHuman extends Player{

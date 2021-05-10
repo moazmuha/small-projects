@@ -4,7 +4,7 @@ package OthelloGame.othello;
  * The goal here is to print out the probability that Random wins and Greedy
  * wins as a result of playing 10000 games against each other with P1=Random and
  * P2=Greedy. What is your conclusion, which is the better strategy?
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 public class OthelloControllerRandomVSGreedy extends OthelloController {

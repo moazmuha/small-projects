@@ -17,7 +17,7 @@ package OthelloGame.othello;
  * 
  * See the examples supplied in the assignment handout.
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 

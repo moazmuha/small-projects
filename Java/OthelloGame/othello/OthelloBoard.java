@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * 
  * Othello makes use of the OthelloBoard.
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 public class OthelloBoard {

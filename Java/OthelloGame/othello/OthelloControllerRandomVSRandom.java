@@ -11,7 +11,7 @@ package OthelloGame.othello;
  * about which your experimental results support. Place your short report in
  * randomVsRandomReport.txt.
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
 public class OthelloControllerRandomVSRandom extends OthelloController {

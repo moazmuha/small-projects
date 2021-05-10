@@ -4,9 +4,10 @@ package OthelloGame.othello;
  * Run the main from this class to play two humans against eachother. Only
  * minimal modifications to this class are permitted.
  * 
- * @author arnold
+ * @author arnold, Moaz
  *
  */
+
 public class OthelloControllerHumanVSHuman extends OthelloController {
 	static String player1Type = "Human";
 	static String player2Type = "Human";

@@ -10,3 +10,4 @@ class TextFile:
         list_wrds = []
         for line in Lines:
             list_wrds.append(line.split(' '))
+        f.close()
